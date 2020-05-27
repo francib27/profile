@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Ubuntu:wght@300;400;500&display=swap');
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: rgb(240,240,240);
+  color: rgba(0,0,0,0.7);
+  line-height: 50px;
+}
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #ea5455;
+  font-size: 35px;
+  line-height: 50px;
+  font-weight: 450;
+}
+
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #2d4059;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.card-white {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px rgba(150,150,150,0.5);
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.img-circle {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+}
+
+.btn-blue {
+  text-decoration: none;
+  background: #2d4059;
+  color: white;
+  display: inline-block;
+  border-radius: 30px;
+  font-size: 18px;
+  padding: 2px 20px;
+  text-align: center;
+  transition-duration: 0.8s;
+}
+
+.btn-blue:hover {
+  opacity: 0.95;
+  background: white;
+  border: 1px solid #2d4059;
+  color:#2d4059;
+}
+
+.fab {
+  color: #ea5455;
+  font-size: 28px;
+  transition-duration: 0.8s;
+}
+
+.fab:hover{
+  color: #ea5455;
+  opacity: 0.7;
+}
+
+.description{
+  font-size: 20px;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
